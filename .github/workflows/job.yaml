@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: echo "teste"
+      - name: Tests
+        run: echo "teste"
+      - name: Tests Coverage
+        run: echo "teste coverage"
