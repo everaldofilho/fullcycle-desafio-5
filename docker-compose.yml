@@ -1,0 +1,5 @@
+version: "3"
+services:
+  fullcycle-desafio-5:
+    build: .
+    container_name: fullcycle-desafio-5
