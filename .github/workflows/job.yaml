@@ -8,4 +8,4 @@ jobs:
       - name: Build
         run: docker-compose up -d
       - name: Tests Coverage
-        run: docker-compose exec app npm run test
+        run: docker-compose exec app bash npm run test
